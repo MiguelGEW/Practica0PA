@@ -30,7 +30,7 @@ public class Estadistica {
     }
 
 
-    /*Devuelve la media aritmética de un conjunto de Doubles*/
+    /*Devuelve la media aritmética de la colección de Doubles*/
     public  static Double media(Collection<Double> reales){
 
 
@@ -42,7 +42,7 @@ public class Estadistica {
 
     }
 
-    /*Devuelve la varianza del conjunto (fórmula equivalente)*/
+    /*Devuelve la varianza de la colección (fórmula equivalente)*/
     public static Double varianza(Collection<Double> reales){
 
         Double media = media(reales);
@@ -52,7 +52,7 @@ public class Estadistica {
 
     }
 
-    /*Devuelve la desiación típica del conjunto*/
+    /*Devuelve la desiación típica de la colección*/
     public  static Double desviacionTipica(Collection<Double> reales){
 
         Double varianza = varianza(reales);
